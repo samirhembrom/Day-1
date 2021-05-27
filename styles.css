@@ -143,7 +143,12 @@ article {
   transition: all 180ms ease-out;
 }
 
-.btn__link:hover {
+.btn__link:focus {
+  outline: none;
+}
+
+.btn__link:hover,
+.btn__link:focus {
   transform: translate(-4px, -4px);
   box-shadow: 9px 9px 0 0 var(--color-primary-alt);
 }

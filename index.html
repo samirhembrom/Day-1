@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Modern CSS</h1>
+    </header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        <li class="nav__item">
+          <a href="#css-properties" class="nav__link">Clamp Explaination</a>
+        </li>
+        <li class="nav__item">
+          <a href="#footer" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <article id="about">
+        <section class="container">
+          <h3 class="about__heading">About</h3>
+          <p class="text about__body">
+            Hi, I enjoy learning about new thing and creating wonderful website.
+            I also love eating pasta and having a good night's sleep. In the
+            webpage, I will try to use few modern CSS properties, I will be
+            using <span class="light">tranform3d</span>,<span class="light"
+              >clamp</span
+            >
+            ,<span class="light">flex</span> ,<span class="light"
+              >css grid</span
+            >
+            and <span class="light">animation</span>. I will add github repo
+            link just below.
+          </p>
+          <div class="btn">
+            <a
+              href="https://github.com/samirhembrom/Day-1"
+              target="_blank"
+              class="btn__link"
+              >Github Link</a
+            >
+          </div>
+        </section>
+      </article>
+      <article id="work">
+        <section class="container">
+          <h3 class="work__headeing">Image hover</h3>
+          <p class="text work_body">
+            I have trying vairous different hover effects on image these are the
+            two effect I have learned so far.
+          </p>
+          <div class="wrapper-grid">
+            <div class="card-1">
+              <img src="images/img-1.jpg" alt="" class="card-1__img" />
+              <div class="card-1__text">
+                <h3 class="card-1__title">Card Title</h3>
+                <p class="card-1__body">Card Body Text</p>
+              </div>
+            </div>
+            <div class="card-1">
+              <img src="images/img-2.jpg" alt="" class="card-1__img" />
+              <div class="card-1__text">
+                <h3 class="card-1__title">Card Title</h3>
+                <p class="card-1__body">Card Body Text</p>
+              </div>
+            </div>
+            <div class="card-2">
+              <img src="images/img-3.jpg" alt="" class="card-2__img" />
+              <div class="card-2__text">
+                <h3 class="card-2__title">Card Title</h3>
+                <p class="card-2__body">Card Body Text</p>
+              </div>
+            </div>
+            <div class="card-2">
+              <img src="images/img-4.jpg" alt="" class="card-2__img" />
+              <div class="card-2__text">
+                <h3 class="card-2__title">Card Title</h3>
+                <p class="card-2__body">Card Body Text</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article id="css-properties">
+        <section class="container">
+          <h3 class="css-properties__heading">CSS Clamp</h3>
+          <p class="text css-properties__body">
+            I would explain CSS clamp property in this section. The css clamp
+            function works with three values. The way it is written is
+            <span class="light">clamp(min,avg,max)</span>. How these values work
+            is depending upon the width of the viewport. The min value will
+            considered when the viewport is small, and avg or middle value will
+            be considered when the viewport is similar to that of tablet, and
+            the last value "max" will be computed when the viewport is large
+            enough for a laptop or larger desktop sizes.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer id="footer">
+      <section class="container">
+        <h3 class="footer__body">Here are the links to my social.</h3>
+        <p class="footer__body">So, what do you think about my website?</p>
+
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a
+              href="https://twitter.com/SamirHembrom11"
+              target="_blank"
+              class="footer__link"
+              ><img class="icon" src="images/twitter.svg" alt=""
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://github.com/samirhembrom"
+              target="_blank"
+              class="footer__link"
+            >
+              <img class="icon" src="images/github.svg" alt="" />
+            </a>
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://codepen.io/samirhembrom007"
+              target="_blank"
+              class="footer__link"
+              ><img class="icon" src="images/codepen.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
